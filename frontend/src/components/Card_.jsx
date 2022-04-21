@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 function Card_({ key, card}) {
   return (
-    <Card style={{ width: "23rem" }} className="text-white bg-dark m-4">
+    <Card style={{ width: "35rem" }} className="text-white bg-dark m-4">
       <Card.Img variant="top" src={card.img} />
       <Card.Body>
         <Card.Title>{card.title}</Card.Title>

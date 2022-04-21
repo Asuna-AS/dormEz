@@ -11,9 +11,11 @@ import Home from "./Home";
 function NavbarComp() {
   return (
     <div>
+      
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+
         <Container>
-          <Navbar.Brand href="/">DormEz</Navbar.Brand>
+          <Navbar.Brand href=""><img src="./Assets/DormEz_logo.png" class="img-fluid"></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

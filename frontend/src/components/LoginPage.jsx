@@ -7,8 +7,8 @@ class LoginForm extends React.Component{
 render(){
   return(
     <div id="loginform">
-      <FormHeader title="Login" />
-      <Form />
+      <FormHeader title="Log in" />
+      <Form />  
     </div>
   )
 }
