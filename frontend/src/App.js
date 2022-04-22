@@ -6,8 +6,10 @@ import { Routes, Route } from "react-router-dom";
 import LoginPage from "./components/LoginPage";
 import Dashboard from "./components/Dashboard";
 import SigninPage from './components/SigninPage';
-import laundry from './components/laundry';
-
+import Bathroom from "./components/Bathroom";
+import Laundry from "./components/Laundry";
+import Canteen from "./components/Canteen";
+import LostAndFound from "./components/LostAndFind";
 
 function App() {
   return (
@@ -18,10 +20,10 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>} exact/>
         <Route path='/login' element = {<LoginPage/>} exact/>
         <Route path='/signup' element = {<SigninPage/>} exact/>
-        <Route path='/bathroom' element = {<bathroom/>} exact/>
-        <Route path='/laundry' element = {<laundry/>} exact/>
-        <Route path='/lostandfound' element = {<lostandfound/>} exact/>
-        <Route path='/canteen' element = {<canteen/>} exact/>
+        <Route path='/bathroom' element = {<Bathroom/>} exact/>
+        <Route path='/laundry' element = {<Laundry />} exact/>
+        <Route path='/canteen' element = {<Canteen />} exact/>
+        <Route path='/lostandfound' element = {<LostAndFound />} exact/>
       </Routes>
 
       
